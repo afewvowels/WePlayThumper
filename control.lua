@@ -1,4 +1,4 @@
--- WePlay: Thumper — Shockwave Equipment
+-- WePlay: Thumper — Crowd Control Equipment
 --
 -- A piston backpack that slams the ground when enemy units come close. The piston
 -- clangs, and a tenth of a second later the boom punches a crater at the wearer's
