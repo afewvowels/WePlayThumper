@@ -1,0 +1,75 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+Date: 2026-11-17
+  Changes:
+    - Removed the warning popup when Thumper and Lullaby share an equipment grid, for now.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 2026-11-17
+  Changes:
+    - Thumper only fires when you're on the ground: not while jetpacking (Jetpack mod) or while mech armor is hovering over water, buildings and other obstacles.
+    - Hard mode doesn't slow players who are in the air.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 2026-11-17
+  Balancing:
+    - Only your newest cracked ground slows enemies. Older crack patches stay as scenery until they fade.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 2026-11-17
+  Changes:
+    - Cracked ground slowdown strength is now a percentage (0-100%), defaulting to 50% (25% slower).
+  Balancing:
+    - Each recent thump an enemy has taken (its fatigue level) takes 10% off its cracked ground slowdown, so thumped-often enemies get faster but stay slower than normal.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2026-11-17
+  Changes:
+    - The cracked ground slowdown setting is now a strength from 0 to 1 (1 = 50% slower, as before), in 5% steps.
+  Balancing:
+    - Shove fatigue is back on: each repeat thump on the same enemy shoves it 60% as far as the last, until it goes 10 seconds without one.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2026-11-17
+  Features:
+    - Rough ground: enemies on the cracked ground a thump leaves behind are slowed (50% by default) for as long as the cracks last.
+    - Map setting: cracked ground slowdown (0-90%).
+    - Map setting, off by default: hard mode, where cracked ground slows players too unless they wear an exoskeleton.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2026-11-17
+  Graphics:
+    - New shockwave: a front of rounded dirt bricks that start small and grow toward the edge, with dust clouds swelling behind them.
+    - The wave leaves the ground cracked like a dry lakebed: tight plates around the crater opening into big jagged cracks at the edge, deep and dark in the middle and shallow at the rim. Each cracked patch is turned a different way.
+    - The crater and the cracks stay together and fade out together.
+  Features:
+    - Map setting: scar duration (default 3 minutes, then a 30 second fade).
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 2026-11-17
+  Changes:
+    - Shoved enemies turn around and come straight back to attack the wearer, instead of sometimes wandering off.
+  Balancing:
+    - Shove fatigue is off for now: every thump gives the full shove.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2026-11-17
+  Balancing:
+    - The shockwave travels twice as fast (10 tiles in a sixth of a second).
+    - Shoves go twice as far (up to 8 tiles for a fresh enemy).
+    - Every enemy gets the same shove for now; bigger enemies no longer resist it (repeat thumps still do less).
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2026-11-17
+  Changes:
+    - New thump sound: a metal piston hit leading into the explosion.
+    - The crater, dirt wave, knockback and rumble now start 0.1 s after the piston hit, in time with the boom.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-11-17
+  Major Features:
+    - First test build: automatic shockwave equipment (2x2, one per grid).
+    - Thumps when enemy units come within 10 tiles: a ring of dirt mounds rolls out 10 tiles, shoving and staggering enemies as it reaches them, with a little physical damage.
+    - Shove fatigue: each repeat thump on the same enemy does less. Bigger enemies barely budge.
+    - Each thump leaves a cracked crater that fades out after a while.
+    - Sounds: an explosion for the thump and an earthquake rumble for the wave.

@@ -1,0 +1,10 @@
+{
+  "name": "WePlayThumper",
+  "version": "0.2.6",
+  "title": "WePlay: Thumper — Shockwave Equipment",
+  "author": "afewvowels",
+  "homepage": "https://github.com/afewvowels/WePlayThumper",
+  "factorio_version": "2.1",
+  "dependencies": ["base >= 2.1.0"],
+  "description": "A piston backpack that slams the ground when biters close in, punching a crater and sending a ring of heaving dirt rolling outward that shoves them back. It buys you time, not immunity."
+}
