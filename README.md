@@ -102,6 +102,7 @@ AI was used heavily in the production of this mod. The code, documentation and p
 
 ## Credits
 
+- Inspired by the Shockwave unit from *Dark Reign*, which buries itself and sends a line of heaving earthen mounds rolling across the battlefield.
 - The equipment icon, technology icon and thumbnail were made with AI image generation (Grok).
 - The shockwave, dust, crater and cracked ground were made procedurally for this mod.
 - Sounds were built from Envato Elements assets ("Bright Explosion", "Earthquake - One Shot" and "Epic Metal Impact"), cut, layered and faded for the thump and the rumble. The sound files are used under the Envato Elements licence and are not covered by the Unlicense.
